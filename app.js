@@ -13,7 +13,9 @@ shareButton.addEventListener("click", () => {
                 alt="icon-share-alt"
                 width="15"
                 height="13"
-              />`;
+              />
+              <figcaption class="offscreen">icon-share</figcaption>
+              `;
     shareButton.style.backgroundColor = "#6e8098";
   } else {
     wrapperElement.style.display = "none";
@@ -22,7 +24,9 @@ shareButton.addEventListener("click", () => {
                 alt="icon-share"
                 width="15"
                 height="13"
-              />`;
+              />
+              <figcaption class="offscreen">icon-share</figcaption>
+              `;
     shareButton.style.backgroundColor = "#ecf2f8";
   }
 });
